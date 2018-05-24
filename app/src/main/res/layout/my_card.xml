@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+    <ImageView
+        android:src="@drawable/love2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/iLove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:padding="26dp"
+        android:text="I LOVE YOU"
+        android:textColor="#F44336"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/husband"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="cursive"
+        android:padding="26dp"
+        android:text="my beloved husband"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+
+
+</RelativeLayout>
